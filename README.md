@@ -7,3 +7,13 @@
 3. Run the development server using `ng serve`.
 4. Navigate to http://localhost:4200/ to view the application.
 
+Run the following commands to execute unit tests:
+
+```bash
+ng test --include='**/data.service.spec.ts'
+ng test --include='**/api.service.spec.ts'
+ng test --include='**/navbar.component.spec.ts'
+ng test --include='**/user-bio.component.spec.ts'
+ng test --include='**/user-repos.component.spec.ts'
+
+
